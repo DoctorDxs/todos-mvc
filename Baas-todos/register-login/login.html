@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Qingful-Login</title>
+	<link rel="stylesheet" href="../css/register-login.css">
+</head>
+<body>
+	<section id="sign">
+		<h1 class="sign-title">登录</h1>
+		<div class='sign-form login'>
+			<div>
+				<img src="../img/phone.png" alt=""><input type="text" name="tel" placeholder="请输入手机号"><span class="warning"></span>
+			</div>
+			<div>
+				<img src="../img/pwd.png" alt=""><input type="password" id='pwd' name="pwd" placeholder="请输入密码"><span class="warning"></span>
+			</div>
+			<div>
+				<button id="login-submit">登录</button><span class="warning prompt">*手机号或密码错误！</span>
+			</div>
+			<div><a href='./register.html' >还没有帐号，立即注册</a></div>
+		</div>
+	</section>
+	<script src="../node_modules/jquery/dist/jquery.js"></script>
+	<script src='../js/register-login.js'></script>
+</body>
+</html>

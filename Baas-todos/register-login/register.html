@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Qingful-register</title>
+	<link rel="stylesheet" href="../css/register-login.css">
+</head>
+<body>
+	<section id="sign">
+		<h1 class="sign-title">注册</h1>
+		<div class='sign-form register'>
+			<div>
+				<img src="../img/phone.png" id='tel' alt=""><input type="text" name="tel" placeholder="请输入手机号"><span class="warning"></span>
+			</div>
+			<div>
+				<img src="../img/pwd.png" alt=""><input id='pwd' type="password" name="pwd" placeholder="请输入密码"><span class="warning"></span>
+			</div>
+			<div>
+				<img src="../img/pwdRepeate.png" alt=""><input id='pwdRepeate' type="password" name="pwdRepeate" placeholder="请再次输入密码"><span class="warning pwdEqual"></span>
+			</div>
+			<div>
+				<button id="register-submit">注册</button><!-- <span class="warning prompt">*该手机号已被注册!</span> -->
+			</div>
+			<div><a href='./login.html' >已有帐号，立即登录</a></div>
+		</div>
+	</section>
+	<script src="../node_modules/jquery/dist/jquery.js"></script>
+	<script src='../js/register-login.js'></script>
+</body>
+</html>
